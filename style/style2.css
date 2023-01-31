@@ -1,0 +1,103 @@
+h1{
+    font-size: 50px;
+    color: white;
+    padding: 40px 10px;
+ }
+
+
+ 
+ #currentPage{
+    
+    background-color: purple;
+ }
+ 
+ a:link{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+    }
+    
+    
+    a:visited{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+    }
+ 
+ html{
+    
+    background-color: rgb(139, 67, 153);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+ }
+
+ header{
+    background-color: rgb(139, 67, 153);
+
+ }
+header > nav{
+    margin: auto;
+    display: flex;
+    border: black solid 1px;
+    background-color: rbg(242, 242, 242);
+    justify-content: center;
+ }
+ 
+ ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    
+ }
+ 
+ header ul > li{
+ text-decoration: none;
+ margin: auto 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+
+#myBody {
+    background-color: rgb(139, 67, 153);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+ }
+
+
+
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    margin: 6px;
+    padding: 10px 10px;
+   border: solid black 2px;
+   border-radius: 10px;
+   text-align: center;
+   background-color: rgb(99, 28, 124);
+}
+
+
+footer{
+    padding-top: 20px;
+    background-color: rgb(139, 67, 153);
+    color: black;
+
+}

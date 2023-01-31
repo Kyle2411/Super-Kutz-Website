@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!--
+	Welcome to Super Kutz!, the best barbershop in Montreal.
+	Kyle Husbands
+	2/7/2022
+-->
+
+   <meta charset="utf-8" />
+   <title> Form </title>
+   <link href="style/style3.css" rel="stylesheet" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+   <script src="js/form.js" async></script>
+
+
+</head>
+
+<body>
+   <header>
+
+      
+      <center><h1><cite><big>&olcir;&nbspSuper Kutz&olcir;</cite></big></h1></center>
+
+      
+      <nav class="h">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="topic.html">Topic</a></li>
+            <li><a id="currentPage" href="form.html">Form</a></li>
+            <li><a href="index.html">Index</a></li> 
+            <li><a href="https://www.emporiumbarbershop.com/" target="_blank">Website</a></li>
+         </ul>
+      </nav>
+   </header>
+   <br>
+
+
+
+   <div id="container">
+      <h1 id = "myH1">Fill in the information about the new client</h1>
+      <h5 id = "myH2"></h5>
+      <h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+         <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+       </svg>&nbspClient's Info</h3>
+       
+       <fieldset></fieldset>
+
+       
+      <form id = "myForm">
+         
+         <label id="id">Client ID:</label><br>
+         <input type="text" id="id2" name="stuID" placeholder="Enter your client ID ">
+         <label id="idcheck" style="color: red;">
+            Please enter a value
+          </label><br><br>
+         
+         <label id="fname">Firstname:</label><br>
+         <input type="text" id="fname2" name="fname" placeholder="Firstname">
+         <label id="fnamecheck" style="color: red;">
+            Please enter a value
+          </label><br><br>
+         <label id="lname">Lastname:</label><br>
+         <input type="text" id="lname2" name="lname" placeholder="Lastname">
+         <label id="lnamecheck" style="color: red;">
+            Please enter a value
+          </label><br><br>
+         <label
+            id="uname">Username:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+         <label id="pword">Password:</label><br>
+         <input type="text" id="uname2" name="uname" placeholder="Username">
+         <input type="text" id="pword2" name="pword" placeholder="Password"><br>
+         <label id="unamecheck" style="color: red;">
+            The username is required
+         </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+          <label id="pwordcheck" style="color: red;">
+            The password is required
+          </label><br><br>
+          
+          <label id="gender">Gender:</label>
+
+          <select id="gender2" name="gender">
+            <option value="unsepcified2">Unsepcified</option>
+            <option value="male2">Male</option>
+            <option value="female2">Female</option></select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+
+           
+         
+        
+
+         
+
+         <label id="dob">Date of birth:</label>
+         <input type="date" id="dob2" name="dob" placeholder="yyyy-mm-dd"><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label id="dobcheck" style="color: red;">
+            The date of birth is required
+         </label>
+         
+         <br><br><br>
+         <p id = "location"><Strong>Select Location:</Strong></p>
+         <input type="radio" id="laval2" name="laval3">
+         <label id="laval">Laval</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+         <input type="radio" id="montreal2" name="montreal3">
+         <label id="montreal">Montreal</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+         <input type="radio" id="Lasalle2" name="Lasalle3">
+         <label id="Lasalle">Lasalle</label><br><br><br>
+
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <label id="locationcheck" style="color: red;">
+            Please select a Location
+          </label>
+         <br><br>
+
+            <p id = "appointment"><Strong>Select appointment preference:</Strong></p>
+            <label class="checkbox-inline">
+               <input type="checkbox" value="" id = "morning2">Morning appointment&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+             </label>
+             <label class="checkbox-inline">
+               <input type="checkbox" value="" id = "evening2">Evening appointment&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+             </label>
+             <label class="checkbox-inline">
+               <input type="checkbox" value="" id = "backtoback2">Back-to-back appointments&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+               </label>
+               <label class="checkbox-inline">
+               <input type="checkbox" value="" id = "no2">No Preference
+             </label><br><br><br>
+
+             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <label id="appointmentcheck" style="color: red;">
+            Please select an appointment
+          </label>
+         <br><br>
+
+             <h3><br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+             </svg>&nbspContact</h3>
+             <fieldset></fieldset>
+            
+             <label id="email">Email</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <label id="phone">Phone #</label><br>
+
+             <input type="text" id="email2" name="email" placeholder="john@example.com">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             
+             <input type="text" id="phone2" name="phone" placeholder="(514) 999-90999"><br>
+             
+
+             <label id="emailcheck" style="color: red;">
+               The email is required
+               </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+               <label id="phonecheck" style="color: red;">
+                  The phone number is required
+
+               </label>&emsp;&emsp;&emsp;&emsp;
+
+             
+             <h3><br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+               <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+             </svg>&nbspAddress</h3>
+             <fieldset></fieldset>
+             
+
+             <label id="street">Street</label><br>
+             
+             <input type="text" id="street2" name="street" placeholder="Street name"><br>
+             <label id="streetcheck" style="color: red;">
+               The street is required
+            </label><br><br>
+
+             <label id="city">City</label><br>
+             <input type="text" id="city2" name="city" placeholder="City"><br>
+             <label id="citycheck" style="color: red;">
+               The city is required
+            </label><br><br>
+             <label id="province">Province</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+             <label id="postal">Postal Code</label><br>
+
+             <input type="text" id="province2" name="province" placeholder="Province">&nbsp;&nbsp;&nbsp;
+             <input type="text" id="postal2" name="postal" placeholder="Postal Code"><br>
+             <label id="provincecheck" style="color: red;">
+               The province is required
+            </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label id="postalcheck" style="color: red;">
+               The postal code is required
+            </label><br><br>
+
+             <label id="comments">Comments</label><br>
+             <textarea id="comments" name="comments2" placeholder="Any comments?"></textarea><br>
+
+             <br>
+             <button id ="Submit" onclick="validateForm()" type="button">Submit</button>
+             <button id ="Reset" onclick="resetForm()" type="button">Reset</button>
+
+             <br><br>
+             <fieldset></fieldset>
+
+      </form>
+     
+   </div>
+
+
+   <footer>
+      <p>
+         Kyle Husbands&nbsp&copy, 2/7/2022
+         <li><a href="https://en.wikipedia.org/wiki/Barber" target="_blank">Barber Info</a></li>
+      </p>
+   </footer>
+</body>
+
+</html>

@@ -1,0 +1,552 @@
+h1{
+    font-size: 50px;
+    color: white;
+ 
+ }
+ 
+ body {
+ 
+  
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+ }
+ 
+ #test {
+    left: -150px;
+    position: absolute;
+    top: 0;
+  }
+ 
+ #currentPage{
+    
+    background-color: purple;
+ }
+ 
+ a:link{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+    }
+    
+    
+    a:visited{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+    }
+ 
+ html{
+    
+    background-color: rgb(139, 67, 153)
+ }
+ 
+ header{
+    display: felx;
+    justify-content: center;
+ }
+ 
+ header > nav{
+    margin: auto;
+    display: flex;
+    border: black solid 1px;
+    background-color: rbg(242, 242, 242);
+    justify-content: center;
+ }
+ 
+ ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+ }
+ 
+ header ul > li{
+ text-decoration: none;
+ margin: auto 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ 
+ .myImg1{
+    display: block;
+    margin: 0 5%;
+ }
+ 
+ .myImg2{
+    display: flex;
+    margin: 0 0 20px 0;
+ }
+ 
+ .myImg3{
+    display: flex;
+ }
+ 
+ figure{
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255)
+ }
+ 
+ a:hover{
+    color:purple;
+    font-size: 12px;
+ 
+ }
+ 
+ article ol > li:hover{
+    color:rgb(37, 10, 136);
+    font-size: 20px;
+ 
+ }
+ 
+ ol{
+    border: solid black 2px;
+    border-style: dashed;
+    list-style-type: upper-roman;
+    margin:  10px 0 10px 0;
+    
+ }
+ 
+ article ul > li{
+    
+    border-style: double;
+    font-size: 18px;
+    padding: 20px;
+    line-height:50px;
+    
+ }
+ 
+    article ul{
+       border-style: dotted;
+ 
+    }
+ 
+    body ul li img{
+       display:none;
+    }
+ 
+    body ul li.Braids:hover img{
+    display:block;
+ 
+    }
+ 
+    body ul li.Twists:hover img{
+       display:block;
+    
+       }
+ 
+    body ul li.TaperFade:hover img{
+       display:block;
+       
+       }
+ 
+    body ul li.HighTop:hover img{
+       display:block;
+          
+       }
+ 
+    body ul li.Waves:hover img{
+       display:block;
+             
+       }
+ 
+    body ul li.dreads:hover img{
+       display:block;
+                
+       }
+ 
+    body ul li.Afro:hover img{
+       display:block;
+                   
+       }
+ 
+ 
+    table, th, td{
+ 
+       text-align: center;
+       border: 1px solid;
+       border-collapse: collapse;
+    }
+ 
+    table > tfoot{
+ 
+       border-color: blue;
+       border-style: dotted;
+       font-size: 18px;
+       text-align: center;
+       line-height:20px;
+       font-style: bold;
+       color: rgb(6, 87, 6);
+       background-color: rgb(37, 199, 59);
+ 
+ 
+    }
+ 
+    table > thead{
+ 
+       background-color: rgb(40, 37, 199);
+       
+    }
+ 
+    tr:hover{
+ 
+       background-color: rgb(37, 175, 199);
+       
+    }
+ 
+     tr:nth-child(even){
+ 
+       background-color: rgb(37, 199, 59);
+    }
+ 
+    table > tfoot{
+ 
+       font-style: oblique;
+       
+ 
+    } 
+ 
+    caption{
+ 
+       font-style:italic;
+       font-size:x-large;
+    }
+ 
+    input[type=text]{
+ 
+       width: 95%;
+       padding: 8px;
+       box-sizing: border-box;
+       border-radius: 4px;
+    }
+ 
+    form{
+ 
+       font-size: large;
+    }
+ 
+    #uname{
+ 
+       width: 47%
+    }
+    
+    #pword{
+ 
+       width: 47%
+    }
+ 
+    #dob{
+ 
+       width: 47%
+    }
+ 
+    #courses{
+ 
+       width: 10%
+    }
+ 
+    #email{
+       width: 30%
+    }
+ 
+    #phone{
+       width: 30%
+    }
+ 
+    #postal{
+       width: 47%
+    }
+ 
+    #province{
+       width: 47%
+    }
+ 
+    #comments{
+ 
+       height: 100px;
+ 
+    }
+ 
+    #dob{
+ 
+       padding: 8px;
+       box-sizing: border-box;
+       border-radius: 4px;
+       
+    }
+ 
+    textarea{
+       width: 915px;
+       
+ 
+    }
+ 
+    #stuID{
+ 
+       width: 95%;
+       padding: 8px;
+       box-sizing: border-box;
+       border-radius: 4px;
+ 
+    }
+
+
+    
+    #uname2{
+ 
+      width: 47%
+   }
+   
+   #pword2{
+
+      width: 47%
+   }
+
+   #dob2{
+
+      width: 47%
+   }
+
+   #courses2{
+
+      width: 10%
+   }
+
+   #email2{
+      width: 30%
+   }
+
+   #phone2{
+      width: 30%
+   }
+
+   #postal2{
+      width: 47%
+   }
+
+   #province2{
+      width: 47%
+   }
+
+   #comments2{
+
+      height: 100px;
+
+   }
+
+   #dob2{
+
+      padding: 8px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      
+   }
+
+
+
+   #id2{
+
+      width: 95%;
+      padding: 8px;
+      box-sizing: border-box;
+      border-radius: 4px;
+
+   }
+ 
+    #Submit{
+ 
+       cursor: pointer;
+       height: 40px;
+       width: 70px;
+       background-color: #134897;
+       color: aliceblue;
+       box-sizing: border-box;
+    }
+ 
+    #Reset{
+ 
+       cursor: pointer;
+       height: 40px;
+       width: 70px;
+       background-color: #cc3328;
+       color: aliceblue;
+       box-sizing: border-box;
+    }
+ 
+    #favcolor2{
+ 
+       width: 35%;
+       padding: 8px;
+       box-sizing: border-box;
+    }
+ 
+    fieldset{
+ 
+       border-bottom: 0;
+       border-left: 0;
+       border-right: 0;
+    }
+ 
+    #container > h1{
+       color: white;
+    background-color: rgb(36, 64, 187);
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+    width: 96%;
+    }
+
+    #container > h1{
+      color: white;
+   background-color: rgb(36, 64, 187);
+   display: inline-block;
+   padding: 10px 20px;
+   text-decoration: none;
+   justify-content: center;
+   font: 14px Arial, sans-serif;
+   border-radius: 5px;
+   width: 96%;
+   }
+ 
+ 
+ #topic > h1{
+    font-size: 50px;
+    color: white;
+    text-align:center;
+    font-style: italic;
+    text-shadow: 2px 2px #09ff00;
+ 
+ }
+ #topic > h2{
+    font-size: 50px;
+    color: white;
+    text-align:center;
+    font-style: italic;
+    text-shadow: 4px 4px #4a3bcc;
+ 
+ }
+ #topic > h3{
+    font-size: 50px;
+    color: white;
+    text-align:center;
+    font-style: italic;
+    text-shadow: 8px 8px #cf42bc;
+ 
+ }
+ 
+ #topic > #p1,#p2,#p3{
+ 
+    line-height: 200%
+ }
+ 
+ #topic >#p1 p:first-of-type::first-line{
+    text-transform: uppercase;
+ }
+ 
+ 
+ 
+ #topic >#p1 p::selection,#p2 p::selection,#p3 p::selection{
+ 
+    background-color: #ca1922;
+ 
+ }
+ 
+ 
+ 
+ #topic >#p1{
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #09ff00;
+ }
+ 
+ #topic >#p2{
+ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4a3bcc;
+ }
+ 
+ #topic >#p3{
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cf42bc;
+ }
+ 
+ #topic >#p2 p:first-of-type:first-letter,#p3 p:first-of-type::first-letter{
+ 
+    text-transform: uppercase;
+    font-size: larger;
+ }
+
+ #pwordcheck{
+
+position: absolute;
+ }
+
+ #unamecheck{
+position: absolute;
+ }
+
+
+#dobcheck{
+
+position: absolute;
+}
+
+
+
+#gendercheck2{
+
+   position: absolute;
+   } 
+
+   #emailcheck{
+
+      position: absolute;
+      }
+      
+       #phonecheck{
+      
+      position: absolute;
+      }
+
+      #provincecheck{
+
+         position: absolute;
+         }
+         
+          #postalcheck{
+         
+         position: absolute;
+         }
+         
+      
+
+   
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
